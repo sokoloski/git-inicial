@@ -18,9 +18,5 @@ public class PinFragment extends AppCompatActivity {
 
     }
 
-    public void set_text(String nome, String valor){
-        textView_valor.setText(valor);
-        textView_nome.setText(nome);
-    }
 
 }

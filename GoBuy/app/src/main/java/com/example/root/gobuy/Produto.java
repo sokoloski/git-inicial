@@ -5,6 +5,8 @@ import com.google.android.gms.maps.model.LatLng;
  */
 
 public class Produto {
+    String loja;
+    String endereço;
     String nome;
     LatLng latlng;
     String valor;

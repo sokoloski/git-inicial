@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.root.gobuy.AdmFragment">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+
+        <TextView
+            android:id="@+id/Titleadm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar produtos"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+
+
+        <EditText
+            android:id="@+id/editText_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Nome"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <EditText
+            android:id="@+id/editText_valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Valor"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+
+
+        <EditText
+            android:id="@+id/editText_coordenadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Endereço"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="175dp" />
+
+        <Button
+            android:id="@+id/button_adicionar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adicionar"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
