@@ -161,6 +161,10 @@ public class MainFragment extends Fragment {
                     LayoutInflater inflater = (LayoutInflater) getActivity().getApplicationContext().getSystemService
                             (Context.LAYOUT_INFLATER_SERVICE);
                     View view = inflater.inflate(R.layout.activity_pin_fragment,null);
+
+                    ((TextView) view.findViewById(R.id.tvi_nome)).setText(p.nome);
+                    ((TextView) view.findViewById(R.id.tvi_valor)).setText(p.valor);
+
                     generator.setContentView(view);
 
 

@@ -13,8 +13,8 @@ public class PinFragment extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pin_fragment);
 
-        textView_nome = (TextView) findViewById(R.id.textView2);
-        textView_valor = (TextView) findViewById(R.id.textView3);
+        textView_nome = (TextView) findViewById(R.id.tvi_nome);
+        textView_valor = (TextView) findViewById(R.id.tvi_valor);
 
     }
 
