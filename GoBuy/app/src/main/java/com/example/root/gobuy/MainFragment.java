@@ -62,8 +62,31 @@ public class MainFragment extends Fragment {
         produtos.add(mouse_2);
 
 
+        Produto g1 = new Produto();
+        g1.latlng = new LatLng(-25.4419466,-49.2624851);
+        g1.nome = "gasolina";
+        g1.valor = "R$ 2,50";
+        g1.loja = "Posto 1";
+        g1.endereço = "Rua do posto 1, 430";
+
+        Produto g2 = new Produto();
+        g2.latlng = new LatLng(-25.4277271,-49.257128);
+        g2.nome = "gasolina";
+        g2.valor = "R$ 3,50";
+        g2.loja = "Posto 2";
+        g2.endereço = "Rua do posto 2, 430";
+
+        Produto g3 = new Produto();
+        g3.latlng = new LatLng(-25.4239946,-49.27554);
+        g3.nome = "gasolina";
+        g3.valor = "R$ 4,50";
+        g3.loja = "Posto 3";
+        g3.endereço = "Rua do posto 3, 430";
 
 
+        produtos.add(g1);
+        produtos.add(g2);
+        produtos.add(g3);
         ///////////////////////////////////
 
         //chamando o fragment do mapa
